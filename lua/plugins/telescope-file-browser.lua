@@ -9,5 +9,8 @@ return {
         desc = "File Browser",
       },
     },
+    config = function()
+      require("telescope").load_extension("file_browser")
+    end,
   },
 }

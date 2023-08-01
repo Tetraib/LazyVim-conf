@@ -6,8 +6,6 @@ return {
       build = "cmake -S. -Bbuild -DCMAKE_BUILD_TYPE=Release && cmake --build build --config Release && cmake --install build --prefix build",
       config = function()
         require("telescope").load_extension("fzf")
-        require("telescope").load_extension("file_browser")
-        require("telescope").load_extension("scope")
       end,
     },
   },
