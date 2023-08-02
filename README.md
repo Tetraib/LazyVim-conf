@@ -11,6 +11,8 @@ Ripgrep
 Fd
 Lazygit
 Alacritty
+Nodejs
+Python
 
 ```powershell
 scoop bucket add main
@@ -18,7 +20,6 @@ scoop bucket add main
 scoop install main/git
 
 scoop bucket add extras
-scoop bucket add nerd-fonts
 
 scoop install main/neovim
 scoop install extras/lazygit
@@ -28,6 +29,15 @@ scoop install main/llvm
 scoop install main/cmake
 scoop install main/ripgrep
 scoop install main/fd
+scoop install main/nodejs
+scoop install main/python
 
+npm install -g tree-sitter-cli
+
+? npm install -g tree-sitter
+? npm install -g tree-sitter-regex
+```
+```powershell
+scoop bucket add nerd-fonts
 scoop install nerd-fonts/JetBrainsMono-NF
 ```
