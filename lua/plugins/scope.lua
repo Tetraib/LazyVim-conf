@@ -4,7 +4,7 @@ return {
     dependencies = {
       "nvim-telescope/telescope.nvim",
       keys = {
-        { "<leader>fv", "<cmd>Telescope scope buffers<CR>", desc = "Find all buffers" },
+        { "<leader>fd", "<cmd>Telescope scope buffers<CR>", desc = "Buffers all tabs" },
         config = function()
           require("telescope").load_extension("scope")
         end,

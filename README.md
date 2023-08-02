@@ -1,4 +1,43 @@
-# 💤 LazyVim
+# LazyVim-config
 
-A starter template for [LazyVim](https://github.com/LazyVim/LazyVim).
-Refer to the [documentation](https://lazyvim.github.io/installation) to get started.
+## Dependencies
+Windows studio build tools with c++
+Neovim
+Git
+LLVM
+Cmake
+Nerd font
+Ripgrep
+Fd
+Lazygit
+Alacritty
+Nodejs
+Python
+
+```powershell
+scoop bucket add main
+
+scoop install main/git
+
+scoop bucket add extras
+
+scoop install main/neovim
+scoop install extras/lazygit
+scoop install extras/alacritty
+
+scoop install main/llvm
+scoop install main/cmake
+scoop install main/ripgrep
+scoop install main/fd
+scoop install main/nodejs
+scoop install main/python
+
+npm install -g tree-sitter-cli
+
+? npm install -g tree-sitter
+? npm install -g tree-sitter-regex
+```
+```powershell
+scoop bucket add nerd-fonts
+scoop install nerd-fonts/JetBrainsMono-NF
+```
