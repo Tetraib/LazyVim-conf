@@ -11,7 +11,7 @@ Lazygit
 Git
 Alacritty
 
-``` powershell
+```powershell
 scoop bucket add main
 scoop bucket add extras
 scoop bucket add nerd-fonts
