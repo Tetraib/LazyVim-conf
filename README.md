@@ -12,7 +12,6 @@ Fd
 Lazygit
 Alacritty
 Nodejs
-Python
 
 ```powershell
 scoop bucket add main
@@ -30,12 +29,10 @@ scoop install main/cmake
 scoop install main/ripgrep
 scoop install main/fd
 scoop install main/nodejs
-scoop install main/python
 
 npm install -g tree-sitter-cli
 
 ? npm install -g tree-sitter
-? npm install -g tree-sitter-regex
 ```
 ```powershell
 scoop bucket add nerd-fonts
