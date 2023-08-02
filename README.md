@@ -31,8 +31,7 @@ scoop install main/fd
 scoop install main/nodejs
 
 npm install -g tree-sitter-cli
-
-? npm install -g tree-sitter
+npm install -g neovim
 ```
 ```powershell
 scoop bucket add nerd-fonts
