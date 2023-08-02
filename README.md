@@ -1,6 +1,6 @@
 # LazyVim-config
 
-## Depandancies
+## Dependencies
 Windows studio build tools with c++
 LLVM
 Cmake
