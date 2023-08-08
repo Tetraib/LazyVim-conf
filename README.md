@@ -1,5 +1,4 @@
 # LazyVim-config
-
 ## Dependencies
 Windows studio build tools with c++
 Neovim
@@ -12,7 +11,6 @@ Fd
 Lazygit
 Alacritty
 Nodejs
-
 ```powershell
 scoop bucket add main
 
